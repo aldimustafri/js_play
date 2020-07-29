@@ -13,10 +13,10 @@ const superagent = require("superagent");
 async function MaximumProfit() {
 	try {
 		const res = await superagent.get(url);
-		// console.log('data: 'res.text);
+		// console.log('res: ', res.text);
 
 		const data = res.text.split(" ");
-		// console.log(data);
+		// console.log('data: ', data);
 
 		const maximum = Math.max.apply(null, data);
 		console.log("Maximum Profit: ", maximum);
