@@ -1,0 +1,25 @@
+{
+  "name": "trading_cryptocurrency",
+  "version": "1.0.0",
+  "description": "Trading Cryptocurrency Logic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldimustafri/trading_cryptocurrency.git"
+  },
+  "keywords": [
+    "Cryptocurrency"
+  ],
+  "author": "Aldi Mustafri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldimustafri/trading_cryptocurrency/issues"
+  },
+  "homepage": "https://github.com/aldimustafri/trading_cryptocurrency#readme",
+  "dependencies": {
+    "superagent": "^5.3.1"
+  }
+}
