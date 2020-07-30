@@ -3,7 +3,7 @@
  * @email aldimustafri@live.com
  * @create date 2020-07-29 15:28:09
  * @modify date 2020-07-29 15:28:09
- * @desc [description]
+ * @desc https://gist.github.com/aldimustafri/8c0568065937833d247c995b0a887803
  */
 
 const url = `https://gist.githubusercontent.com/Jekiwijaya/0b85de3b9ff551a879896dd78256e9b8/raw/e9d58da5d4df913ad62e6e8dd83c936090ee6ef4/gistfile1.txt`;
