@@ -11,20 +11,20 @@ const url = `https://gist.githubusercontent.com/Jekiwijaya/c72c2de532203965bf818
 const superagent = require("superagent");
 
 async function MaximumProfit() {
-	try {
-		const res = await superagent.get(url);
-		// console.log('res: ', res.text);
+  try {
+    const res = await superagent.get(url);
+    // console.log('res: ', res.text);
 
-		const data = res.text.split(" ");
-		// console.log('data: ', data);
+    const data = res.text.split(" ");
+    // console.log('data: ', data);
 
-		const maximum = Math.max.apply(null, data);
-		console.log("Maximum Profit: ", maximum);
+    const maximum = Math.max.apply(null, data);
+    console.log("Maximum Profit: ", maximum);
 
-		return data;
-	} catch (error) {
-		console.log(error);
-	}
+    return data;
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 MaximumProfit();
